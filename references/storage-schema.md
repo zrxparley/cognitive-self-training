@@ -89,23 +89,17 @@ Last checked:
 ```markdown
 # Dream Review YYYY-MM-DD
 
-## Inputs
+## Dream Review
 
-## Replay
-
-## Compressed Fragments
+## Dream Recurrence Statement
 
 ## Tian-Dao Deduction
 
-## Dream Description
+## Research Hypotheses
 
-## Academic Rigor Pass
+## Tomorrow's Practice
 
-## Recombination
-
-## Hypotheses To Test
-
-## Updates Proposed
+## Store Updates
 ```
 
 ## Dream Style Config Schema

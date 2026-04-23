@@ -24,7 +24,8 @@ Selection rules:
 1. If `Mode: fixed`, use `Fixed style`.
 2. If `Mode: random`, randomly select one style from `Enabled styles`.
 3. If `Mode: weighted-random`, select according to the configured weights.
-4. If the selected style conflicts with the user's emotional safety or the seriousness of the content, choose `research-lab` instead and note the override.
+4. Load the selected style's scene instruction from [dream-styles.md](dream-styles.md).
+5. If the selected style conflicts with the user's emotional safety or the seriousness of the content, choose `research-lab` instead and note the override.
 
 The style affects only the dream description. It must not alter evidence, probabilities, scores, or recommendations.
 
@@ -74,14 +75,15 @@ Then apply:
 - Inversion: imagine the lesson failed and reverse-engineer why.
 - Safety margin: preserve uncertainty and avoid over-promoting weak insights.
 
-### 4. Dream Description
+### 4. Dream Review Scene
 
-Render the reasoning process as a scene the user can inspect. Use the selected style to choose setting, tone, characters, and movement.
+Render the reasoning process as a scene the user can inspect. Use the selected style's scene instruction. The agent should write as if it has crossed into that dream scene to study, replay, and consolidate the day.
 
 Requirements:
 
 - 250-700 words unless the user asks for more or less.
 - Include the selected style name.
+- Begin with the crossing premise from the style's scene instruction.
 - Turn each key fragment into a visible object, actor, room, road, case file, battlefield unit, classroom exercise, lab instrument, or other style-appropriate scene element.
 - Show the reasoning movement: conflict, branch, test, uncertainty, and consolidation.
 - Add a short `Reasoning map` that links 3-7 scene elements back to source fragments.
@@ -90,17 +92,29 @@ Requirements:
 Use this structure:
 
 ```markdown
-## Dream Description
+## Dream Review
 
-Style:
+Selected style:
 
-Scene:
+Dream scene:
 
 Reasoning map:
 - Scene element -> source fragment or hypothesis
 ```
 
-### 5. Academic Rigor Pass
+### 5. Dream Recurrence Statement
+
+Write one compact paragraph explaining why this dream scene recurs today and what learning pattern it is trying to rehearse.
+
+Use this structure:
+
+```markdown
+## Dream Recurrence Statement
+
+Tonight's dream recurs as `[style]`: ...
+```
+
+### 6. Academic Rigor Pass
 
 Write every important result as one of:
 
@@ -120,7 +134,7 @@ For each hypothesis, include:
 - Next experiment:
 ```
 
-### 6. Recombination
+### 7. Recombination
 
 For each fragment, produce:
 
@@ -129,7 +143,7 @@ For each fragment, produce:
 - counterexample: where the idea breaks
 - research question: what to study next
 
-### 7. Promotion Gate
+### 8. Promotion Gate
 
 Do not promote dream outputs directly into durable principles unless one of these is true:
 
@@ -147,21 +161,15 @@ Write to `.cognitive-training/dreams/YYYY-MM-DD.md`:
 ```markdown
 # Dream Review YYYY-MM-DD
 
-## Inputs
+## Dream Review
 
-## Replay
-
-## Compressed Fragments
+## Dream Recurrence Statement
 
 ## Tian-Dao Deduction
 
-## Dream Description
+## Research Hypotheses
 
-## Academic Rigor Pass
+## Tomorrow's Practice
 
-## Recombination
-
-## Hypotheses To Test
-
-## Updates Proposed
+## Store Updates
 ```

@@ -114,39 +114,53 @@ Review log:
 - 
 ```
 
-## Dream Description
+## Dream Review
 
 ```markdown
-## Dream Description
+## Dream Review
 
-Style:
+Selected style:
 
-Scene:
+Dream scene:
 
 Reasoning map:
 - Scene element -> source fragment, card, mistake, hypothesis, or branch
 ```
 
-## Dream Review
+## Dream Review User-Facing Output
 
 ```markdown
-# Dream Review YYYY-MM-DD
+## Dream Review
 
-## Inputs
+Selected style:
 
-## Replay
+Dream scene:
 
-## Compressed Fragments
+Reasoning map:
+- 
+
+## Dream Recurrence Statement
+
+Tonight's dream recurs as `[style]`: ...
 
 ## Tian-Dao Deduction
 
-## Dream Description
+- Causal chain:
+- Branches:
+- Butterfly points:
+- Terminal states:
 
-## Academic Rigor Pass
+## Research Hypotheses
 
-## Recombination
+- Hypothesis:
+- Evidence needed:
+- Confidence:
 
-## Hypotheses To Test
+## Tomorrow's Practice
 
-## Updates Proposed
+- 
+
+## Store Updates
+
+- 
 ```

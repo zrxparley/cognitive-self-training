@@ -237,39 +237,33 @@ When the user asks for a review or training cycle, respond with:
 
 Keep the final user-facing summary concise. Put detailed logs in `.cognitive-training/`.
 
-When the user asks for dream review, respond with:
+When the user asks for dream review, use exactly these top-level sections and do not add extra top-level sections:
 
 ```markdown
 ## Dream Review
-
-### Dream Inputs
-- 
-
-### Dream Description
-- Style:
-- Scene:
+- Selected style:
+- Dream scene:
 - Reasoning map:
 
-### Tian-Dao Deduction
+## Dream Recurrence Statement
+- Why this dream scene recurs today:
+- What learning pattern it rehearses:
+
+## Tian-Dao Deduction
 - Causal chain:
 - Branches:
 - Butterfly points:
 - Terminal states:
 
-### Research Hypotheses
+## Research Hypotheses
 - Hypothesis:
 - Evidence needed:
 - Confidence:
 
-### Knowledge Expansion
-- New connection:
-- Transfer:
-- Counterexample:
-
-### Tomorrow's Practice
+## Tomorrow's Practice
 - 
 
-### Store Updates
+## Store Updates
 - 
 ```
 
