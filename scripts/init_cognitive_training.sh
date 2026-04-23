@@ -48,6 +48,47 @@ Prompt:
 Run cognitive-self-training dream review. Read today's cognitive training files, use tian-dao style deduction, write the dream review, create due recall cards, update graph links, and propose tomorrow's strategy. Do not store secrets or raw private transcripts.
 "
 
+create_if_missing "$STORE/dream-style-config.md" "# Dream Style Config
+
+Mode: random
+Fixed style: research-lab
+Enabled styles:
+- joyful-festival
+- elegy-rain
+- school-classroom
+- research-lab
+- field-training
+- battlefield-command
+- courtroom-trial
+- sea-voyage
+- mountain-pilgrimage
+- marketplace-negotiation
+- workshop-forge
+- hospital-rounds
+- library-archive
+- city-crisis-room
+- theater-rehearsal
+
+Weights:
+- joyful-festival: 1
+- elegy-rain: 1
+- school-classroom: 1
+- research-lab: 2
+- field-training: 2
+- battlefield-command: 1
+- courtroom-trial: 1
+- sea-voyage: 1
+- mountain-pilgrimage: 1
+- marketplace-negotiation: 1
+- workshop-forge: 1
+- hospital-rounds: 1
+- library-archive: 1
+- city-crisis-room: 1
+- theater-rehearsal: 1
+
+Safety fallback: research-lab
+"
+
 create_if_missing "$STORE/cards.md" "# Cards
 
 Spaced-repetition cards. Review entries with Due <= today.
@@ -92,6 +133,8 @@ create_if_missing "$STORE/dreams/$TODAY.md" "# Dream Review $TODAY
 ## Compressed Fragments
 
 ## Tian-Dao Deduction
+
+## Dream Description
 
 ## Academic Rigor Pass
 

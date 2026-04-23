@@ -113,3 +113,40 @@ Review log:
 ### Memory Updates
 - 
 ```
+
+## Dream Description
+
+```markdown
+## Dream Description
+
+Style:
+
+Scene:
+
+Reasoning map:
+- Scene element -> source fragment, card, mistake, hypothesis, or branch
+```
+
+## Dream Review
+
+```markdown
+# Dream Review YYYY-MM-DD
+
+## Inputs
+
+## Replay
+
+## Compressed Fragments
+
+## Tian-Dao Deduction
+
+## Dream Description
+
+## Academic Rigor Pass
+
+## Recombination
+
+## Hypotheses To Test
+
+## Updates Proposed
+```

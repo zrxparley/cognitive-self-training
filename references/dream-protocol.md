@@ -11,8 +11,22 @@ Load only the relevant files:
 - `.cognitive-training/cards.md` entries created or reviewed today
 - `.cognitive-training/mistakes.md` open entries
 - `.cognitive-training/graph.md` recent links
+- `.cognitive-training/dream-style-config.md`
 - `.learnings/` if present
 - `tian-dao` skill body or references if available
+
+## Style Selection
+
+Before writing the dream description, read `.cognitive-training/dream-style-config.md`. If it is missing, create it from [dream-styles.md](dream-styles.md).
+
+Selection rules:
+
+1. If `Mode: fixed`, use `Fixed style`.
+2. If `Mode: random`, randomly select one style from `Enabled styles`.
+3. If `Mode: weighted-random`, select according to the configured weights.
+4. If the selected style conflicts with the user's emotional safety or the seriousness of the content, choose `research-lab` instead and note the override.
+
+The style affects only the dream description. It must not alter evidence, probabilities, scores, or recommendations.
 
 ## Dream Stages
 
@@ -60,7 +74,33 @@ Then apply:
 - Inversion: imagine the lesson failed and reverse-engineer why.
 - Safety margin: preserve uncertainty and avoid over-promoting weak insights.
 
-### 4. Academic Rigor Pass
+### 4. Dream Description
+
+Render the reasoning process as a scene the user can inspect. Use the selected style to choose setting, tone, characters, and movement.
+
+Requirements:
+
+- 250-700 words unless the user asks for more or less.
+- Include the selected style name.
+- Turn each key fragment into a visible object, actor, room, road, case file, battlefield unit, classroom exercise, lab instrument, or other style-appropriate scene element.
+- Show the reasoning movement: conflict, branch, test, uncertainty, and consolidation.
+- Add a short `Reasoning map` that links 3-7 scene elements back to source fragments.
+- Do not add new factual claims inside the scene.
+
+Use this structure:
+
+```markdown
+## Dream Description
+
+Style:
+
+Scene:
+
+Reasoning map:
+- Scene element -> source fragment or hypothesis
+```
+
+### 5. Academic Rigor Pass
 
 Write every important result as one of:
 
@@ -80,7 +120,7 @@ For each hypothesis, include:
 - Next experiment:
 ```
 
-### 5. Recombination
+### 6. Recombination
 
 For each fragment, produce:
 
@@ -89,7 +129,7 @@ For each fragment, produce:
 - counterexample: where the idea breaks
 - research question: what to study next
 
-### 6. Promotion Gate
+### 7. Promotion Gate
 
 Do not promote dream outputs directly into durable principles unless one of these is true:
 
@@ -114,6 +154,8 @@ Write to `.cognitive-training/dreams/YYYY-MM-DD.md`:
 ## Compressed Fragments
 
 ## Tian-Dao Deduction
+
+## Dream Description
 
 ## Academic Rigor Pass
 
