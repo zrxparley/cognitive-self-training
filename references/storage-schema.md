@@ -100,6 +100,8 @@ Last checked:
 ## Tomorrow's Practice
 
 ## Store Updates
+
+## Summary Narrative
 ```
 
 ## Dream Style Config Schema

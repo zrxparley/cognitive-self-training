@@ -265,6 +265,10 @@ When the user asks for dream review, use exactly these top-level sections and do
 
 ## Store Updates
 - 
+
+## Summary Narrative
+- Write one novel-like concluding paragraph in Chinese, no more than 300 Chinese characters.
+- Fully describe the dream details, the review experience, and how the knowledge understanding improved.
 ```
 
 ## Failure Handling

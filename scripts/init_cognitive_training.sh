@@ -45,7 +45,7 @@ Scope: project
 Last configured: $TODAY
 
 Prompt:
-Run cognitive-self-training dream review. Read today's cognitive training files, randomly select an enabled dream style, write the result with exactly these top-level sections: Dream Review, Dream Recurrence Statement, Tian-Dao Deduction, Research Hypotheses, Tomorrow's Practice, Store Updates. Create due recall cards, update graph links, and propose tomorrow's strategy. Do not store secrets or raw private transcripts.
+Run cognitive-self-training dream review. Read today's cognitive training files, randomly select an enabled dream style, write the result with exactly these top-level sections: Dream Review, Dream Recurrence Statement, Tian-Dao Deduction, Research Hypotheses, Tomorrow's Practice, Store Updates, Summary Narrative. Create due recall cards, update graph links, and propose tomorrow's strategy. Do not store secrets or raw private transcripts.
 "
 
 create_if_missing "$STORE/dream-style-config.md" "# Dream Style Config
@@ -167,6 +167,8 @@ create_if_missing "$STORE/dreams/$TODAY.md" "# Dream Review $TODAY
 ## Tomorrow's Practice
 
 ## Store Updates
+
+## Summary Narrative
 "
 
 create_if_missing "$STORE/archive/$MONTH.md" "# Archive $MONTH

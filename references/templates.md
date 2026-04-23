@@ -163,4 +163,8 @@ Tonight's dream recurs as `[style]`: ...
 ## Store Updates
 
 - 
+
+## Summary Narrative
+
+用不超过300个中文字符，像小说结尾一样总结梦境细节、复盘学习的知识理解、理解如何加深，以及明天应如何继续训练。
 ```

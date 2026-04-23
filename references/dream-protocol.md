@@ -154,6 +154,18 @@ Do not promote dream outputs directly into durable principles unless one of thes
 
 Unvalidated outputs become cards with `Source: dream` and `Stability: new`.
 
+### 9. Summary Narrative
+
+End the user-facing report and stored dream file with `Summary Narrative`.
+
+Requirements:
+
+- Write one paragraph in Chinese.
+- Limit it to 300 Chinese characters.
+- Make it read like the closing paragraph of a novel.
+- Include the dream scene's sensory detail, the reviewed knowledge, the shift in understanding, and the next learning posture.
+- Do not introduce new evidence, tasks, or claims not already represented in earlier sections.
+
 ## Output File
 
 Write to `.cognitive-training/dreams/YYYY-MM-DD.md`:
@@ -172,4 +184,6 @@ Write to `.cognitive-training/dreams/YYYY-MM-DD.md`:
 ## Tomorrow's Practice
 
 ## Store Updates
+
+## Summary Narrative
 ```
